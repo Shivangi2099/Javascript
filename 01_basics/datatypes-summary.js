@@ -40,4 +40,31 @@ const myFunction = function(){
     
 }
 
-console.log(typeof isLoggedIn);
+// console.log(typeof isLoggedIn);
+
+
+
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+
+
+let myYoutubename ="hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne ={
+    email: "shivangi@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+useTwo.email="user@google.com"
+console.log(useTwo);
+console.log(userOne);
+
